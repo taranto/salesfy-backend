@@ -1,0 +1,14 @@
+node_modules
+js
+*.log
+coverage
+.nyc_output
+*.zip
+dump.rdb
+salesfy-shared
+models
+log
+extra-content
+*.env
+.snyk
+snyk.json

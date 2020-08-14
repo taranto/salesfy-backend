@@ -1,0 +1,6 @@
+{ 
+    "timestamps": false,
+    "paranoid": true,
+    "underscored": false,
+	"freezeTableName": true
+}

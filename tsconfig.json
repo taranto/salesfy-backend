@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module": "commonjs",
+        "strictNullChecks": true,
+        "inlineSourceMap": true,
+        "experimentalDecorators": true,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "types": [
+            "node",
+            "salesfy-shared"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "app/*": [
+                "ts/app/*"
+            ],
+            "*": [
+                "generated/"
+            ]
+        },
+    },
+    "include": [
+        "ts/app/*",
+        "ts/test/*",
+        "ts/EntryPoint.ts",
+        "ts/EntryPoint.spec.ts",
+        "ts/ModuleAlias.ts",
+    ]
+}
